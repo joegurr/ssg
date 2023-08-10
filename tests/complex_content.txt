@@ -1,0 +1,23 @@
+title-short: Complex Content
+title-long: This is the full title to my blog post with complex content
+date: 2023-08-10
+date-human: August 2023
+quote: This is an interesting and pithy quote
+attribution: An interesting person
+content: Here is some complex content, I don't know what to do with it!
+
+<div class="theorem">
+    <h4>Arzelà-Ascoli Theorem</h4>
+
+    <p>Let \(\mathcal{F}\) be an equicontinuous family from a separable metric space \((X, d_X)\) to a
+    complete metric space \((Y, d_Y)\) such that \(\overline{\{f_n(x) : 0 \leq n < \infty \}}\) is compact for
+    all \(x\). </p>
+
+    <p>Then there is a subsequence \(\{f_{n_j}\}_{j=1}^\infty\) converging pointwise to a
+    continuous function and the convergence is uniform on compact subsets. </p>
+
+    <h5>Corollary</h5>
+    <p>Let \(\{f_n :
+    [0,1] \to \mathbb{R} \}\) be uniformly bounded and equicontinuous. Then some subsequence
+    converges in \(C[0,1]\).</p>
+</div>

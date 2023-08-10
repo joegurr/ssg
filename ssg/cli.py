@@ -1,4 +1,8 @@
-from . import core
+from .core import generate
+
 
 def main():
-    print(core.generate('test-file'))
+    """
+    Entry point into the program.
+    """
+    generate('./tests/simple_content.txt')
